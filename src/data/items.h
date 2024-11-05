@@ -12485,6 +12485,21 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_TeachyTV,
     },
 
+    [ITEM_INFINITE_RARE_CANDY] =
+    {
+        .name = _("Forever Candy"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "Give Your Pokemon\n"
+            "EXP To Level UP."),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .effect = gItemEffect_RareCandy,
+        .fieldUseFunc = ItemUseOutOfBattle_InfiniteRareCandy,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
 // Story Key Items
 
     [ITEM_SS_TICKET] =
