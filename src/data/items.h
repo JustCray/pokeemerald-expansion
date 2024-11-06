@@ -12495,6 +12495,7 @@ const struct Item gItemsInfo[] =
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
+        .effect = gItemEffect_RareCandy,
         .flingPower = 30,
         .iconPic = gItemIcon_RareCandy,
         .iconPalette = gItemIconPalette_RareCandy,
