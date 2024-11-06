@@ -152,8 +152,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent::
 	lockall
 	applymovement OBJ_EVENT_ID_PLAYER, LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForPokedex
 	waitmovement 0
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex
 	giveitem ITEM_INFINITE_RARE_CANDY, 1
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex
 	end
 
 LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForPokedex:
