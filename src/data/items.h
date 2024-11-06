@@ -12494,7 +12494,6 @@ const struct Item gItemsInfo[] =
             "EXP To Level UP."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
-        .effect = gItemEffect_RareCandy,
         .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
         .flingPower = 30,
         .iconPic = gItemIcon_RareCandy,
